@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavLinks = () => {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="sm: grid md:flex justify-between items-center p-4 gap-8 ">
       <Link href="#home">Home</Link>
       <Link href="#about">About</Link>
       <Link href="#testiomonial">Testimonial</Link>

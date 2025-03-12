@@ -1,0 +1,39 @@
+.animatedButton {
+    position: relative;
+    height: 3rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, #656565, #4249a7, #0014c5, #0000a0, #757575, #656565);
+    background-size: 200%;
+    animation: animationGradient linear 2.5s infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid var(--accent); */
+    transform: rotate(-12deg);
+    position: absolute;
+    top: -2.5rem; 
+    padding: 15px 5px;
+
+  }
+
+  @keyframes animationGradient {
+    to {
+      background-position: 200%;
+    }
+  }
+
+  .animatedButtonText{
+    /* position: absolute; */
+    inset: 3px 3px 3px 3px;
+    background-color: var(--accent-foreground);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 10px 20px;
+  }    
+  
+  
