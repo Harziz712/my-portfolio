@@ -4,6 +4,7 @@ import Home from './pages/home';
 import { Milkyway } from './components/ui/ui';
 import About from './pages/about';
 import Service from './pages/service';
+import Testimonial from './pages/testimonial';
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
         <Milkyway />
         <About />
         <Service/>
+        <Testimonial/>
       </div>
     </div>
   );

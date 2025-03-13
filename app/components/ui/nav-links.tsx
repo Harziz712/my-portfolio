@@ -7,7 +7,7 @@ const NavLinks = () => {
       <Link href="#home">Home</Link>
       <Link href="#about">About</Link>
       <Link href="#service">Services</Link>
-      <Link href="#testiomonial">Testimonial</Link>
+      <Link href="#testimonial">Testimonial</Link>
       <Link href="#newsletter">Newsletters</Link>
     </div>
   )
