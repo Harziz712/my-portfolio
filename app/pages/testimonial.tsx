@@ -20,9 +20,12 @@ const Testimonial = () => {
   
 
   return (
-    <div id="testimonial" className="h-auto min-h-screen w-full px-5 md:px-[10%] py-[10%] relative flex flex-col items-center gap-18">
+    <div id="testimonial" className="h-auto min-h-screen w-full px-5 md:px-[10%] py-[10%] relative flex flex-col items-center gap-12">
       <BgBlur className="left-[40%] top-[40%] z-0 absolute" />
-      <TitleText title="Testimonials">My</TitleText>
+   <div className='text-center space-y-2'>
+   <TitleText title="Testimonials">My</TitleText>
+   <p>The buzz on Azeez</p>
+   </div>
       <GlassShadow />
       <Carousel
         plugins={[autoplayPlugin.current]}

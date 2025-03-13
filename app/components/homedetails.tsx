@@ -3,7 +3,9 @@ import { Homebtn } from './ui/ui'
 
 const HomeDetails = () => {
   return (
-    <div className="w-full md:w-[50%] text-center md:text-left space-y-5  z-10 relative">
+    <div data-aos="flip-right"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" className="w-full md:w-[50%] text-center md:text-left space-y-5  z-10 relative ">
       <Homebtn />
       <h1 className="text-[35px] md:text-[50px] font-[700] leading-tight pt-2">
         Awww, Common! You found me too?!
