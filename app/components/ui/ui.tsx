@@ -8,6 +8,7 @@ import { Images } from '@/app/assets/images'
 export const Glassmorphism = ({children, className}: {children: React.ReactNode, className?: string}) => {
   return (
     <div className={`backdrop-blur-md shadow-md ${className}`}>{children}</div>
+    // <div className={`backdrop-blur-md bg-white/10 shadow-md ${className}`}>{children}</div>
   )
 }
 
@@ -20,14 +21,18 @@ export const Homebtn = () => {
     </Button>
   )
 }
-export const BgBlur = () => {
+export const BgBlur = ({ className }: { className?: string }) => {
   return (
-<div className='h-[250px] w-[250px] blur-3xl  bg-primary  opacity-30 absolute  top-[20%] left-[40%] z-0 '></div>
-  )
-}
+    <div
+      className={`absolute w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] blur-3xl bg-primary opacity-30 ${className}`}
+    ></div>
+  );
+};
+
 
 export const Milkyway = () => {
   return (
-<img src={Images.milkyway.src} alt="milkyway" className='w-full' />  )
+    <div className='w-full py-[5%] h-[60vh]' ><img src={Images.milkyway.src} alt="milkyway" /> </div>
+ )
 }
 

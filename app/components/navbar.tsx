@@ -7,15 +7,15 @@ import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
 
 const Navbar = () => {
   return (
-    <Glassmorphism className="w-full fixed  top-0 left-0 z-99">
+    <Glassmorphism className="w-full fixed  top-0 left-0 z-50">
       <div className="flex justify-between items-center py-4 px-8">
         <h1 className="text-2xl font-semibold">Logo</h1>
-
+{/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-6">
           <NavLinks />
         </div>
-
-        <div className="md:hidden">
+{/* Mobile */}
+        <div className="md:hidden z-100 relative">
           <Sheet>
             <SheetTrigger>
               <Menu className="w-8 h-8" />
@@ -29,7 +29,7 @@ const Navbar = () => {
           </Sheet>
          
         </div>
-        <Button className="hidden md:flex px-6 py-3 font-bold text-sm">Contact me</Button>
+        <Button className={"hidden md:flex px-6 py-3 font-bold text-sm"}>Contact me</Button>
       </div> 
    
       <div className="h-[2px] w-full bg-primary mb-3"></div>

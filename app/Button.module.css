@@ -1,5 +1,5 @@
 .animatedButton {
-    position: relative;
+    /* position: relative; */
     height: 3rem;
     border-radius: 50px;
     background: linear-gradient(to right, #656565, #4249a7, #0014c5, #0000a0, #757575, #656565);
@@ -13,6 +13,7 @@
     transform: rotate(-12deg);
     position: absolute;
     top: -2.5rem; 
+    z-index: 50;
     padding: 15px 5px;
 
   }
