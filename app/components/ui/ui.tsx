@@ -43,6 +43,11 @@ export const TitleText =({title,  children,}: {children?: React.ReactNode, title
     <div className="text-primary text-[30px] font-[700]"><span className='text-accent'>{children}</span> {title}</div>
   )
 }
+export const GlassShadow = () => {
+  return (
+    <div className="w-[240px] h-[220px] bg-primary absolute top-[48%] left-[42%] blur-3xl"></div>
+  );
+};
 
 export const ServiceBox = () => {
   return (
@@ -72,3 +77,5 @@ export const ServiceBox = () => {
 
   )
 }
+
+
