@@ -2,6 +2,9 @@ import React from 'react'
 import { Button } from './button'
 import styles from "../../Button.module.css";
 import { Images } from '@/app/assets/images'
+import { Card } from './card';
+import Image from 'next/image';
+import { Services } from '@/app/data/data';
 
 
 
@@ -35,4 +38,37 @@ export const Milkyway = () => {
     <div className='w-full py-[5%] h-[60vh]' ><img src={Images.milkyway.src} alt="milkyway" /> </div>
  )
 }
+export const TitleText =({title,  children,}: {children?: React.ReactNode, title: string }) => {
+  return (
+    <div className="text-primary text-[30px] font-[700]"><span className='text-accent'>{children}</span> {title}</div>
+  )
+}
 
+export const ServiceBox = () => {
+  return (
+<>   
+ {Services.map((service) => (
+      <Glassmorphism className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
+      <div className="flex flex-col items-center gap-4 p-5">
+    <div className="w-full h-[150px] overflow-hidden rounded-2xl">
+      <Image
+        src={service.image}
+        alt="service1"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    {/* Text Content */}
+
+    <div className="w-full px-4 py-3 inset-1 rounded-2xl shadow-lg text-center space-y-2">
+      <h3 className=" font-semibold text-lg text-primary uppercase">{service.title}</h3>
+      <p className=" text-sm">{service.description}  </p>
+    </div>
+  </div>
+  </Glassmorphism>
+
+  ))}
+  </>
+
+  )
+}
