@@ -9,7 +9,7 @@ const Contact = () => {
   <TitleText title='me' >Contact</TitleText>
   <GlassShadow/>
 
-  <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-48 w-full">
+  <div className="flex flex-col md:flex-row items-center justify-center gap-20 md:gap-48 w-full">
     <ContactInfo/>
     <ContactForm/>
     </div>

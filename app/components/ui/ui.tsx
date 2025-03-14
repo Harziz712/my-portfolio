@@ -37,7 +37,7 @@ export const BgBlur = ({ className }: { className?: string }) => {
 
 export const Milkyway = () => {
   return (
-    <div className='w-full py-[5%] h-[60vh]' ><img src={Images.milkyway.src} alt="milkyway" /> </div>
+    <div className='w-full py-[20%] md:py-[5%] h-[60vh]' ><img src={Images.milkyway.src} alt="milkyway" /> </div>
  )
 }
 export const TitleText =({title,  children,}: {children?: React.ReactNode, title: string }) => {
@@ -55,8 +55,9 @@ export const ServiceBox = () => {
   return (
 <>   
  {Services.map((service) => (
-      <Glassmorphism className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
-      <div className="flex flex-col items-center gap-4 p-5">
+      <Glassmorphism  className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
+      <div data-aos="zoom-in-down"
+      data-aos-easing="ease-in-cubic" className="flex flex-col items-center gap-4 p-5">
     <div className="w-full h-[150px] overflow-hidden rounded-2xl">
       <Image
         src={service.image}
@@ -83,14 +84,14 @@ export const ServiceBox = () => {
 
 export const ContactInfo = () => {
   return (
-<div className="flex flex-col items-center w-[40%] gap-5">
+<div className="flex flex-col px-3 md:p-0 items-center md:w-[40%] gap-5">
   <div className="flex flex-col items-left gap-2 space-y-4">
     <h2 className="text-primary text-[30px] font-[700]">Interested in collaborating on a project? Let's bring your creative ideas to life</h2>
     <p className="text-[15px] font-[500]">Feel free to send an email or fill out the form below:</p>
     <div className='flex gap-3'><Mail/> <p>akanbiazeez117@gmail.com</p></div>
   </div>
 
-<div className='relative pt-[120px]'>    <Image
+<div className='relative pt-[120px] hidden md:flex'>    <Image
       src={Images.cute.src}
       alt="contact"
       width={100}

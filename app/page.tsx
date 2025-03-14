@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <div className="bg-accent-foreground text-accent h-full m-0 p-0">
       <Navbar />
-      <div className=" relative"> 
+      <div className=" relative pt-10 md:pt-0"> 
         <Home /> 
         <Milkyway />
         <About />

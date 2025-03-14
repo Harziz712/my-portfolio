@@ -41,7 +41,7 @@ export function ContactForm() {
 
   return (
     // <div className="flex flex-col items-center gap-4 w-[20%]">
-      <Glassmorphism className="w-[50%] p-5 rounded-2xl shadow-md">
+      <Glassmorphism className="w-full md:w-[50%] p-5  rounded-2xl shadow-md">
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 w-full">
         <FormField
@@ -93,7 +93,7 @@ export function ContactForm() {
             <FormItem>
               {/* <FormLabel>Message</FormLabel> */}
               <FormControl>
-                <Textarea placeholder="Enter your message" {...field} className="border-primary border-2  md:h-[200px] shadow-2xl rounded-[20px]" />
+                <Textarea placeholder="Enter your message" {...field} className="border-primary border-2 h-[150px]  md:h-[200px] shadow-2xl rounded-[20px]" />
               </FormControl>
               <FormMessage />
             </FormItem>
