@@ -10,39 +10,39 @@ export const Services = [
 ]
 
 export const testimonials = [
-    {
-      id: 1,
-      imageUrl: Images.userimg,
-      name: "Osahon Belo-Osagie",
-      position: "Brand Manager, Credit Veto",
-      testimonial: "Joseph is really good at his work. He's really good at setting expectations, and he never fails to over-deliver. Trust Joseph for your copy; he'll never disappoint you."
-    },
-    {
-      id: 2,
-      imageUrl: Images.userimg,
-      name: "Sarah Johnson",
-      position: "Marketing Lead, Bright Tech",
-      testimonial: "Joseph is a phenomenal writer! He understands the audience and delivers high-quality content with precision and clarity."
-    },
-    {
-      id: 3,
-      imageUrl: Images.userimg,
-      name: "David Smith",
-      position: "CEO, Innovate Solutions",
-      testimonial: "His attention to detail and ability to craft engaging copy is unmatched. Highly recommended!"
-    },
-    {
-      id: 4,
-      imageUrl: Images.userimg,
-      name: "Emily Carter",
-      position: "Creative Director, Visionary Media",
-      testimonial: "Working with Joseph has been a game-changer for our brand. He brings creativity and professionalism to every project."
-    },
-    {
-      id: 5,
-      imageUrl: Images.userimg,
-      name: "Michael Green",
-      position: "Founder, GrowthHacks",
-      testimonial: "Reliable, consistent, and always delivering top-tier content. Joseph is an asset to any team!"
-    },
-  ];
+  {
+    id: 1,
+    imageUrl: Images.userimg,
+    name: "Rabiu Ahmad",
+    position: "Founder,  Acqua",
+    testimonial: "Azeez is exceptional at front-end development and design. He perfectly blends functionality with aesthetics, creating seamless user experiences."
+  },
+  {
+    id: 2,
+    imageUrl: Images.userimg,
+    name: "Odunsumbo Feranmi",
+    position: "Lead Strategist, Eion Tech",
+    testimonial: "Azeez's eye for design and attention to detail in front-end development are outstanding. His work elevates our brand and enhances user engagement."
+  },
+  {
+    id: 3,
+    imageUrl: Images.userimg,
+    name: "David Smith",
+    position: "CEO, Innovate Solutions",
+    testimonial: "His ability to create visually stunning and highly functional web interfaces is unmatched. A true professional in both development and design."
+  },
+  {
+    id: 4,
+    imageUrl: Images.userimg,
+    name: "Emily Carter",
+    position: "Creative Director, Visionary Media",
+    testimonial: "Working with Azeez has transformed our digital presence. His front-end expertise and design skills bring creativity and innovation to every project."
+  },
+  {
+    id: 5,
+    imageUrl: Images.userimg,
+    name: "Michael Green",
+    position: "Founder, GrowthHacks",
+    testimonial: "Reliable, detail-oriented, and incredibly talented—Azeez consistently delivers stunning designs and seamless user experiences. A great asset to any team!"
+  },
+];

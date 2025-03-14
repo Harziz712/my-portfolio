@@ -1,10 +1,12 @@
+"use client"
+
 import React from 'react'
 import { Button } from './button'
 import styles from "../../Button.module.css";
 import { Images } from '@/app/assets/images'
-import { Card } from './card';
 import Image from 'next/image';
 import { Services } from '@/app/data/data';
+import { Mail } from 'lucide-react';
 
 
 
@@ -78,4 +80,24 @@ export const ServiceBox = () => {
   )
 }
 
+
+export const ContactInfo = () => {
+  return (
+<div className="flex flex-col items-center w-[40%] gap-5">
+  <div className="flex flex-col items-left gap-2 space-y-4">
+    <h2 className="text-primary text-[30px] font-[700]">Interested in collaborating on a project? Let's bring your creative ideas to life</h2>
+    <p className="text-[15px] font-[500]">Feel free to send an email or fill out the form below:</p>
+    <div className='flex gap-3'><Mail/> <p>akanbiazeez117@gmail.com</p></div>
+  </div>
+
+<div className='relative pt-[120px]'>    <Image
+      src={Images.cute.src}
+      alt="contact"
+      width={100}
+      height={100}
+      objectFit='cover'
+      style={{scale: 2.5, position: 'relative'}}
+    /></div>
+</div>
+  )}
 

@@ -9,6 +9,7 @@ import Testimonial from './pages/testimonial';
 import { useEffect } from "react";
 import AOS from "aos"
 import "aos/dist/aos.css";
+import Contact from './pages/contact';
 
 
 const Page = () => {
@@ -24,6 +25,7 @@ const Page = () => {
         <About />
         <Service/>
         <Testimonial/>
+        <Contact/>
       </div>
     </div>
   );

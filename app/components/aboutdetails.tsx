@@ -7,8 +7,7 @@ const Aboutdetails = () => {
       <h2 className="text-[30px] font-[700]">I AM AKANBI ABDULAZEEZ KOLAWOLE</h2>
       <p className="text-[15px] font-[500]">The one you heard about.</p>
       <p className="text-[15px] font-[500]">
-        I am a Direct-response Marketing and Copywriting professional, famous for using deep psychology and persuasion to sell out brands, products, and services for some of the major brands across the world.
-      </p>
+      I am a Frontend Developer and Graphic Designer specializing in creating visually compelling and user-friendly digital experiences. With a deep understanding of design psychology and user behavior, I craft engaging interfaces that enhance brand identity and drive conversions. </p>
       <h4 className="text-[20px] font-[500]">They say I'm a GENIUS. I agree.</h4>
     </div>
   );

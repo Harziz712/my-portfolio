@@ -23,7 +23,7 @@ const NavLinks = () => {
       <Link   data-aos="fade-down"
   data-aos-duration="3000"
   data-aos-delay="300"
-  data-aos-offset="200" href="#newsletter">Newsletters</Link>
+  data-aos-offset="200" href="#contact">Contact Me</Link>
     </div>
   )
 }

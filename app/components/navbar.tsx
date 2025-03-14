@@ -23,13 +23,13 @@ const Navbar = () => {
             <SheetContent side="left">
               <div className="flex flex-col items-center gap-4 mt-6">
                 <NavLinks />
-                <Button className="w-full py-3">Contact me</Button>
+                <Button className="w-full py-3">Get In Touch</Button>
               </div>
             </SheetContent>
           </Sheet>
          
         </div>
-        <Button className={"hidden md:flex px-6 py-3 font-bold text-sm"}>Contact me</Button>
+        <Button className={"hidden md:flex px-6 py-3 font-bold text-sm"}>Get In Touch</Button>
       </div> 
    
       <div className="h-[2px] w-full bg-primary mb-3"></div>
