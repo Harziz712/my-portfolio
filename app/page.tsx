@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import AOS from "aos"
 import "aos/dist/aos.css";
 import Contact from './pages/contact';
+import Footer from './pages/footer';
 
 
 const Page = () => {
@@ -26,6 +27,8 @@ const Page = () => {
         <Service/>
         <Testimonial/>
         <Contact/>
+      <div className="h-[2px] w-full bg-primary mb-3"></div>
+        <Footer/>
       </div>
     </div>
   );
