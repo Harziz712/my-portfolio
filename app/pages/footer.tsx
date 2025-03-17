@@ -5,11 +5,13 @@ import { Mail, Phone } from "lucide-react";
 import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
 import Link from "next/link";
-import { Glassmorphism } from "../components/ui/ui";
+// import { div } from "../components/ui/ui";
 
 export default function Footer() {
   return (
-    <Glassmorphism className="flex flex-col">
+    <div data-aos="zoom-out"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" className="flex flex-col">
     <div className="w-full py-8 px-6 md:px-16 lg:px-24 flex flex-row justify-between  items-end">
       {/* Left Section */}
       <div className="text-left md:text-left mb-4 md:mb-0">
@@ -45,6 +47,6 @@ export default function Footer() {
                <div className="text-center text-gray-500 text-sm mb-4 md:mb-0">
         &copy; 2025 HarzizDesigns. All rights reserved.
       </div>
-    </Glassmorphism>
+    </div>
   );
 }

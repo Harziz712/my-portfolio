@@ -22,7 +22,8 @@ const Testimonial = () => {
   return (
     <div id="testimonial" className="h-auto min-h-screen w-full px-5 md:px-[10%] py-[10%] relative flex flex-col items-center gap-12">
       <BgBlur className="left-[40%] top-[40%] z-0 absolute" />
-   <div className='text-center space-y-2'>
+   <div data-aos="fade-down"
+      data-aos-easing="ease-in-cubic" className='text-center space-y-2'>
    <TitleText title="Testimonials">My</TitleText>
    <p>The buzz on Azeez</p>
    </div>
@@ -36,7 +37,7 @@ const Testimonial = () => {
         <CarouselContent className="w-full h-full py-10">
           {testimonials.map(({ id, imageUrl, name, position, testimonial }) => (
             <CarouselItem key={id} className="pl-1 md:basis-1/2 lg:basis-1/3">
-              <div className="p-1">
+              <div  className="p-1">
                 <Glassmorphism className="relative justify-center items-center h-[300px] p-6 border-none shadow-2xl rounded-2xl bg-accent">
                   <div className="absolute left-1/2 z-20 -top-6 -translate-x-1/2 w-20 h-12">
                     <Image
