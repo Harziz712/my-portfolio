@@ -15,8 +15,9 @@ import Footer from './pages/footer';
 
 const Page = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 1000, once: false });
   }, []);
+
   return (
     <div className="bg-accent-foreground text-accent h-full m-0 p-0">
       <Navbar />

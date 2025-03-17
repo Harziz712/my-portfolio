@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutImg from '../components/aboutimg'
 import Aboutdetails from '../components/aboutdetails'
 import { BgBlur } from '../components/ui/ui'
 
 const About = () => {
+
   return (
 <div id="about" className="h-auto min-h-screen w-full px-5 md:px-[10%] py-[10%] relative flex flex-col items-center justify-center">
   <BgBlur className="left-[40%] top-[40%] z-0 absolute" />
