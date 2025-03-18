@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Glassmorphism className="w-full fixed  top-0 left-0 z-50">
       <div className="flex justify-between items-center py-4 px-8">
-<Image className="object-contain h-6 w-8" src={Images.logo} alt={''} />
+<Image className="object-contain h-10 w-15" src={Images.logo} alt={''} />
 {/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-6">
           <NavLinks />
