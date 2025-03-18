@@ -4,12 +4,15 @@ import NavLinks from './ui/nav-links'
 import { Button } from './ui/button'
 import { Menu, X } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
+import Image from 'next/image'
+import { Images } from '../assets/images'
+
 
 const Navbar = () => {
   return (
     <Glassmorphism className="w-full fixed  top-0 left-0 z-50">
       <div className="flex justify-between items-center py-4 px-8">
-        <h1 className="text-2xl font-semibold">Logo</h1>
+<Image className="object-contain h-6 w-8" src={Images.logo} alt={''} />
 {/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-6">
           <NavLinks />
