@@ -1,12 +1,12 @@
 import { Images } from "../assets/images";
 
 export const Services = [
-    {image: Images.marketing , title: "Software Engineer" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
-    {image: Images.marketing , title: "Web Development" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
-    {image: Images.marketing , title: "Web Design" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
-    {image: Images.marketing , title: "Graphic Designs" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
-    {image: Images.marketing , title: "Ghost Writing" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
-    {image: Images.marketing , title: "Seo Researcher" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.softeng , title: "Software Engineer" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.webdev , title: "Web Development" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.webdes , title: "Web Design" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.graphi , title: "Graphic Designs" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.ghostwri , title: "Ghost Writing" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    {image: Images.seores , title: "Seo Researcher" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
 ]
 
 export const testimonials = [
