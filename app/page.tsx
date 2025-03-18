@@ -19,7 +19,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="bg-accent-foreground text-accent h-full m-0 p-0">
+    <div className="bg-accent-foreground text-accent h-full m-0 p-0 overflow-x-hidden">
       <Navbar />
       <div className=" relative pt-10 md:pt-0"> 
         <Home /> 

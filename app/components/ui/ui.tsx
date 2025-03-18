@@ -54,8 +54,8 @@ export const GlassShadow = () => {
 export const ServiceBox = () => {
   return (
 <>   
- {Services.map((service) => (
-      <Glassmorphism  className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
+ {Services.map((service, id) => (
+      <Glassmorphism key={id} className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
       <div data-aos="zoom-in-down"
       data-aos-easing="ease-in-cubic" className="flex flex-col items-center gap-4 p-5">
     <div className="w-full h-[150px] overflow-hidden rounded-2xl">
