@@ -56,6 +56,8 @@ export const ServiceBox = () => {
 <>   
  {Services.map((service, id) => (
       <Glassmorphism key={id} className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
+        <GlassShadow/>
+
       <div data-aos="zoom-in-down"
       data-aos-easing="ease-in-cubic" className="flex flex-col items-center gap-4 p-5">
     <div className="w-full h-[150px] overflow-hidden rounded-2xl">

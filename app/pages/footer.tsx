@@ -5,7 +5,8 @@ import { Mail, Phone } from "lucide-react";
 import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
 import Link from "next/link";
-// import { div } from "../components/ui/ui";
+import { Images } from "../assets/images";
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -15,9 +16,9 @@ export default function Footer() {
     <div className="w-full py-8 px-6 md:px-16 lg:px-24 flex flex-row justify-between  items-end">
       {/* Left Section */}
       <div className="text-left md:text-left mb-4 md:mb-0">
-        <h1 className="text-2xl font-semibold">Logo</h1>
+      <Image className="object-contain h-10 w-15" src={Images.logo} alt={''} />
         {/* <p className="text-sm mt-2">Sect. A Room 7, Abode Lodge, Akure, Ondo State, NG</p> */}
-        <p className="text-sm text-primary flex items-center gap-2 mt-1">
+        <p className="text-xs md:text-sm text-primary flex items-center gap-2 mt-1">
           <Mail size={16} /> akanbiazeez117@gmail.com
         </p>
       </div>

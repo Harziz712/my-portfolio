@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 import { Menu, X } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
 import Image from 'next/image'
-import { Images } from '../assets/images'
+import { Images } from "../assets/images"
 
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLinks />
         </div>
 {/* Mobile */}
-        <div className="md:hidden z-100 relative">
+        <div className="md:hidden z-100 relative bg-accent-foreground text-accent">
           <Sheet>
             <SheetTrigger>
               <Menu className="w-8 h-8" />
