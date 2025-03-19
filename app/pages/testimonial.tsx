@@ -34,7 +34,7 @@ const Testimonial = () => {
         onLoadStart={autoplayPlugin.current.stop}
         onMouseLeave={autoplayPlugin.current.reset}
       >
-        <CarouselContent className="ml-5 md:ml-0 md:w-full h-full py-10 ">
+        <CarouselContent className="ml-1 md:ml-0 md:w-full h-full py-10 ">
           {testimonials.map(({ id, imageUrl, name, position, testimonial }) => (
             <CarouselItem key={id} className="pl-1 md:basis-1/2 lg:basis-1/3">
               <div  className="p-1">
