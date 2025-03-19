@@ -20,7 +20,7 @@ const Testimonial = () => {
   
 
   return (
-    <div id="testimonial" className="h-auto min-h-screen w-full px-5 md:px-[10%] py-[10%] relative flex flex-col items-center gap-12">
+    <div id="testimonial" className="h-auto min-h-screen w-full md:px-[10%] py-[10%] relative flex flex-col items-center gap-12">
       <BgBlur className="left-[40%] top-[40%] z-0 absolute" />
    <div data-aos="fade-down"
       data-aos-easing="ease-in-cubic" className='text-center space-y-2'>
