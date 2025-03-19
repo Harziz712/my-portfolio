@@ -18,10 +18,11 @@ const Navbar = () => {
           <NavLinks />
         </div>
 {/* Mobile */}
-        <div className="md:hidden z-100 relative bg-accent-foreground text-accent">
-          <Sheet>
-            <SheetTrigger>
-              <Menu className="w-8 h-8" />
+        <div className="md:hidden z-100 relative text-accent">
+          <Sheet >
+            <SheetTrigger >
+              <Menu className="w-8 h-8 " />
+              
             </SheetTrigger>
             <SheetContent side="left">
               <div className="flex flex-col items-center gap-4 mt-6">

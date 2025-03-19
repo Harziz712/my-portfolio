@@ -30,7 +30,7 @@ const Testimonial = () => {
       <GlassShadow />
       <Carousel
         plugins={[autoplayPlugin.current]}
-        className="w-full max-w-sm md:max-w-5xl py-10"
+        className="w-full max-w-sm md:max-w-5xl py-10 "
         onMouseEnter={autoplayPlugin.current.stop}
         onMouseLeave={autoplayPlugin.current.reset}
       >

@@ -10,7 +10,7 @@ const About = () => {
   <BgBlur className="left-[40%] top-[40%] z-0 absolute" />
   
   
-  <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 w-full px-20">
+  <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 w-full md:px-20">
 
     <AboutImg />
     <Aboutdetails />

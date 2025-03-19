@@ -30,14 +30,14 @@ export default function Footer() {
         <Button variant="outline" className="flex items-center gap-2 rounded-[10px] border-none ease-in-out bg-primary hover:bg-accent">
           <Mail size={16} /> Contact me
         </Button>
-        <div className="flex gap-4 text-primary">
+        <div className="flex gap-4 text-primary ">
           <Link href="#"><FaLinkedin size={20} /></Link>
           <Link href="#"><FaTwitter size={20} /></Link>
           <Link href="#"><FaFacebook size={20} /></Link>
           <Link href="#"><LuInstagram size={20} /></Link>
         </div>
         <Link href="https://wa.me/+2347087875399">
-          <p className="text-primary flex items-center gap-2 text-sm">
+          <p className="text-primary flex items-center gap-2 text-xs md:text-sm">
             <Phone size={16} /> (+234) 8146447551
           </p>
         </Link>

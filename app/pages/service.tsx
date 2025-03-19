@@ -8,10 +8,10 @@ const Service = () => {
   <TitleText title='Services' >My</TitleText>
   <GlassShadow/>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full pt-10 px-10 md:px-[10%] ">
-    
-    <ServiceBox/>
+  <div className=" px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full pt-10 justify-center items-center">
 
+      <ServiceBox />
+  
   </div>
 </div>
   )

@@ -37,7 +37,9 @@ export const BgBlur = ({ className }: { className?: string }) => {
 
 export const Milkyway = () => {
   return (
-    <div className='w-full py-[20%] md:py-[5%] h-[60vh]' ><img src={Images.milkyway.src} alt="milkyway" /> </div>
+    <div className='w-full flex justify-center items-center md:py-[5%] h-[60vh] '>
+      <img src={Images.milkyway.src} alt="milkyway" />
+    </div>
  )
 }
 export const TitleText =({title,  children,}: {children?: React.ReactNode, title: string }) => {
@@ -55,7 +57,7 @@ export const ServiceBox = () => {
   return (
 <>   
  {Services.map((service, id) => (
-      <Glassmorphism key={id} className="w-[300px]  p-0 rounded-2xl  shadow-md  overflow-hidden">
+      <Glassmorphism key={id} className="w-[300px]  p-0 mt-4 rounded-2xl  shadow-md  overflow-hidden">
         <GlassShadow/>
 
       <div data-aos="zoom-in-down"
