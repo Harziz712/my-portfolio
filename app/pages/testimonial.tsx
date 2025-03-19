@@ -31,14 +31,14 @@ const Testimonial = () => {
       <Carousel
         plugins={[autoplayPlugin.current]}
         className="w-full max-w-sm md:max-w-5xl py-10 "
-        onMouseEnter={autoplayPlugin.current.stop}
+        onLoadStart={autoplayPlugin.current.stop}
         onMouseLeave={autoplayPlugin.current.reset}
       >
-        <CarouselContent className="ml-10 md:ml-0 md:w-full h-full py-10 ">
+        <CarouselContent className="ml-5 md:ml-0 md:w-full h-full py-10 ">
           {testimonials.map(({ id, imageUrl, name, position, testimonial }) => (
             <CarouselItem key={id} className="pl-1 md:basis-1/2 lg:basis-1/3">
               <div  className="p-1">
-                <Glassmorphism className="relative justify-center items-center h-[300px] p-6 border-none shadow-2xl rounded-2xl bg-accent">
+                <Glassmorphism className="relative justif</div>y-center items-center h-[300px] p-6 border-none shadow-2xl rounded-2xl bg-accent">
                   <div className="absolute left-1/2 z-20 -top-6 -translate-x-1/2 w-20 h-12">
                     <Image
                       src={imageUrl}
