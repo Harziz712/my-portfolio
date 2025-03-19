@@ -16,6 +16,7 @@ import {
 import { Input } from "./input";
 import { Textarea } from "./textarea";
 import { Glassmorphism } from "./ui";
+import { SendIcon } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
@@ -102,7 +103,7 @@ export function ContactForm() {
           )}
         />
 
-        <Button type="submit" className="rounded-2xl py-5 font-[600] px-10">Submit</Button>
+        <Button type="submit" className="rounded-2xl py-5 font-[600] px-10"> <SendIcon/>  Submit</Button>
       </form>
     </Form>
     </Glassmorphism>
