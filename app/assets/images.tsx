@@ -10,8 +10,14 @@ import graphi from "./graph.jpg"
 import ghostwri from "./ghostwr.jpg"
 import seores from "./seores.jpg"
 import logo from "./IAMHarziiz-white.png"
+import airtimease from './airtimeease.webp'
+import gamehub from './gamehubb.webp'
+import acqua from './acqua.webp'
+import apple3d from './apple3d.png'
+import vibecoffe from './vibecoffe.png'
+import houseify from './housify.png'  
 
 
 export const Images  = {
-    milkyway, profileImag ,marketing, userimg, cute, softeng, webdev, webdes, graphi, ghostwri, seores, logo
+    milkyway, profileImag ,marketing, userimg, cute, softeng, webdev, webdes, graphi, ghostwri, seores, logo, airtimease, gamehub, acqua, apple3d, vibecoffe, houseify
 }

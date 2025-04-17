@@ -11,6 +11,7 @@ import AOS from "aos"
 import "aos/dist/aos.css";
 import Contact from './pages/contact';
 import Footer from './pages/footer';
+import Projects from './pages/projects';
 
 
 const Page = () => {
@@ -19,16 +20,17 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="bg-accent-foreground text-accent h-full m-0 p-0 overflow-x-hidden">
+    <div className="bg-accent-foreground text-accent h-full m-0 p-0 overflow-hidden">
       <Navbar />
       <div className=" relative pt-10 md:pt-0"> 
         <Home /> 
         <Milkyway />
         <About />
         <Service/>
+        <Projects/>
         <Testimonial/>
         <Contact/>
-      <div className="h-[2px] w-full bg-primary mb-3"></div>
+      <div className="h-[2px] w-full bg-primary mb-3"/>
         <Footer/>
       </div>
     </div>

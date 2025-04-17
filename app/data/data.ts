@@ -9,6 +9,33 @@ export const Services = [
     {image: Images.seores , title: "Seo Researcher" ,description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
 ]
 
+export const ProjectList = [
+  {image: Images.airtimease , 
+    title: "AirtimeEase" , 
+    link: '...' , 
+    description:"Airtime Ease - Simplifying Your Top-Ups & Bill Payments Airtime Ease is a fast, secure, and user-friendly web application designed to make virtual top-ups effortless.With Airtime Ease, you can: Buy Airtime & Data for any network instantly Pay Utility Bills etc."},
+  {image: Images.gamehub , 
+    title: "GameHub" , 
+    link: '...' , 
+    description:"The Gamehub Project is designed to revolutionize how users discover and explore new games. This web app offers an intuitive platform where users can browse, search, and explore a vast collection of games tailored to their preferences and interests."},
+  {image: Images.acqua , 
+    title: "Acqua" , 
+    link: '...' , 
+    description:"The Acqua Project is a comprehensive fish farm management and accounting app designed to streamline farm operations and financial tracking. It provides an intuitive platform that helps fish farmers manage daily tasks and handle accounting, all in one place."},
+  {image: Images.houseify , 
+    title: "Housify" , 
+    link: '...' , 
+    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+  {image: Images.apple3d , 
+    title: "Apple 3D website" , 
+    link: '...' , 
+    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+  {image: Images.vibecoffe , 
+    title: "Animated Coffe site" , 
+    link: '...' , 
+    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+]
+
 export const testimonials = [
   {
     id: 1,
