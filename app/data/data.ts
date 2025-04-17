@@ -25,15 +25,15 @@ export const ProjectList = [
   {image: Images.houseify , 
     title: "Housify" , 
     link: 'https://housify-cehf.onrender.com/' , 
-    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    description:"Housify is a sleek real estate platform that makes finding your dream home simple. Browse listings, explore neighborhoods, and connect with trusted agents. From rentals to luxury estates, Housify offers an intuitive and modern way to search for properties that match your lifestyle."},
   {image: Images.apple3d , 
     title: "Apple 3D website" , 
     link: 'https://apple-website-5rki.onrender.com/' , 
-    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    description:"This iPhone 15 Pro website showcases Apple's latest innovation in stunning detail. Explore powerful features, cutting-edge design, and immersive visuals. With smooth animations and responsive design, the site delivers a premium, Apple-inspired experience built to impress."},
   {image: Images.vibecoffe , 
     title: "Animated Coffe site" , 
     link: 'https://vibecoffe-q4pr.vercel.app/' , 
-    description:"Whether it's landing page copy, website copy, email campaigns, or ad copy, I'll help you communicate your value proposition in a way that turns readers into customers."},
+    description:"VibeCoffe is your go-to destination for premium coffee blends and a cozy online café experience. Discover rich flavors, brewing tips, and handpicked beans sourced from top farms. Whether you're a casual drinker or a coffee enthusiast, VibeCoffe has something for every vibe."},
 ]
 
 export const testimonials = [

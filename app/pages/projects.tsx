@@ -87,7 +87,7 @@ const Projects = () => {
               <div className="w-full px-4 py-3 inset-1 rounded-2xl  text-center space-y-2 flex flex-col items-center ">
                 <h3 className=" font-semibold text-lg text-primary uppercase">{project.title}</h3>
                 <p className="text-sm overflow-ellipsis">{project.description}  </p>
-            <Button className={" flex px-6 py-3 font-bold text-sm rounded-2xl cursor-pointer mt-4" }>   <Link href={project.link}> </Link>  Visit  <LuArrowRight/></Button>
+            <Button className={" flex px-6 py-3 font-bold text-sm rounded-2xl cursor-pointer mt-4" }>   <Link href={project.link}   target="_blank" rel="noopener noreferrer" className='flex justify-center items-center gap-1' > Visit  <LuArrowRight/></Link>  </Button>
 
               </div>
             </div>
