@@ -34,7 +34,7 @@ const Projects = () => {
       <GlassShadow />
 
 
-            <div className=" px-12 md:px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full pt-10 ">
+            <div className=" px-8 md:px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full pt-10 ">
            {ProjectList.map((project, id) => (
                 <Glassmorphism key={id} className="w-[300px]  p-0 mt-4 rounded-2xl  shadow-md  overflow-hidden">
                   <GlassShadow/>
